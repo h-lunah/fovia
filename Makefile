@@ -41,8 +41,8 @@ init:
 # download sources
 fetch:
     @echo -e "\033[7mFetching sources...\033[0m"
-    git clone --depth=1 -b v6.9.4 https://github.com/gregkh/linux work/linux
-    git clone --depth=1 -b 1_36_stable https://git.busybox.net/busybox work/busybox
+    git clone --depth=1 -b v6.11.4 https://github.com/gregkh/linux work/linux
+    git clone --depth=1 -b 1_37_stable https://git.busybox.net/busybox work/busybox
 
 # compile sources
 compile:
